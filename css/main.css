@@ -312,7 +312,8 @@
     display: block; 
     overflow: hidden; 
     cursor: pointer;
-    border: 2px solid #999999; border-radius: 20px;
+    border: 1px solid #AAB6F0; 
+    border-radius: 20px;
 }
 
 .onoffswitch-inner {
@@ -362,7 +363,7 @@
     top: 0; 
     bottom: 0;
     right: 29px;
-    border: 2px solid #999999; 
+    border: 1px solid #AAB6F0; 
     border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
 }
@@ -510,6 +511,7 @@
   line-height: 20px;
   color: #3E3F75;
   margin-right: 45px;
+  margin-left: 15px;
 }
 
 .name-token-text {
@@ -607,13 +609,15 @@
   color: #3E3F75;
 }
 
-.token-ifo-api {
+.token-info-api {
+  margin-top: 12px;
   width: 1124px;
   height: 46px;
   border: 0;
   background: #D6DAED;
   box-shadow: 1.54714e-15px 25.2667px 50.5333px rgba(43, 44, 47, 0.1035), inset -3.47246e-16px -5.67096px 5.67096px #CED2E4, inset 3.47246e-16px 5.67096px 5.67096px #DDE1F4;
   border-radius: 9px;
+  margin-bottom: 12px;
 }
 
 
